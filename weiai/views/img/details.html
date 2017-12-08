@@ -1,0 +1,36 @@
+<% include ../common/header.html %>
+<div class="cm_main2 ">
+    <div id="bc_head">
+        <% include ../components/index_head.html %>
+    </div>
+    <div class="cm_main">
+        <!--轮播图-->
+        <div id="cm_slideShow">
+            <% include ../components/cm_slideShow.html %>
+        </div>
+        <div class="row cm_picsBottom">
+            <!--评论-->
+            <div id="cm_discuss" class="col-md-8">
+                <% include ../components/cm_discuss.html %>
+                
+            </div>
+
+            <!--最近更新-->
+            <div id="cm_recentUpdates" class="col-md-4">
+                <% include ../components/cm_recentUpdates.html %>
+            </div>
+        </div>
+    </div>
+    <div id="bc_foot">
+        <% include ../components/index_foot.html %>
+    </div>
+</div>
+
+<script>
+window.loadAction = [
+    {name:'index_head',filename:'index_head',isFirst:1,path:'components/',type:'js'},
+    {name:'flexText',filename:'jquery.flexText',isFirst:1,path:'components/',type:'js'},//评论
+    {name:'img_details',filename:'img_details',isFirst:0,path:'single/',type:'js'}
+];
+</script>
+<% include ../common/footer.html %>

@@ -1,0 +1,7 @@
+<script  id='footer01' type='text/html'>
+    <ul class="row cm_hl3 cm_tc cm_be">
+        {{each list as v i}}
+           <li class="col-xs-6 cm_pr {{if url==v.url}}cm_c1b cm_cf{{else}}cm_c4c{{/if}}"><a href="{{v.url}}">{{v.name}}</a></li>
+        {{/each}}
+    </ul>
+</script>

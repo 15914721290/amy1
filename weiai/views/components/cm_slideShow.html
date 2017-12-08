@@ -1,0 +1,127 @@
+<!--<script  id='slideShow_02' type='text/html'>-->
+<div id="wrapper">
+    <div class='topWrap'>
+        <h1>热裤女神居家写真</h1>
+        <div class='detailsText'>
+            <span class='span_01'>2017-11-09</span>
+            <span class='span_02'><a href="#">查看评论（143人参与）</a></span>
+            <span class='span_03'>支持←  → 键翻阅图片</span>
+        </div>
+    </div>
+
+	<!--滚动看图-->
+	<div id="picSlideWrap" class="clearfix"><br>
+        <div class="imgnav" id="imgnav"> 
+             <div id="img"> 
+                <img src="/images/pics/banner_01.jpg" width="780" height="570">
+                <img src="/images/pics/banner_02.jpg"  width="780" height="570">
+                <img src="/images/pics/banner_03.jpg" width="780" height="570" />
+                <img src="/images/pics/banner_04.jpg"  width="780" height="570" />
+                <img src="/images/pics/banner_01.jpg" width="780" height="570">
+                <img src="/images/pics/banner_02.jpg"  width="780" height="570">
+                <img src="/images/pics/banner_03.jpg" width="780" height="570" />
+                <img src="/images/pics/banner_04.jpg"  width="780" height="570" />
+                <div id="front" title="上一张">
+                    <a href="javaScript:void(0)" class="pngFix"></a>
+                </div>
+                <div id="next" title="下一张">
+                    <a href="javaScript:void(0)" class="pngFix"> </a>
+                </div>
+             </div>
+             <div id="content">
+    　　         <p><span><i>0</i>/8</span> &nbsp;倪妮登封面文艺慵懒柔美可人 精致天鹅颈性感吸睛</p>
+             </div>
+              
+             <div class='cbtnBox'>
+                 <div class='preSet'>
+                     <a href="#">
+                         <img src="/images/pics/banner_04.jpg" alt="">
+                     </a>
+                 </div>
+                 <div id="cbtn">
+                    <i class="picSildeLeft"><img src="/images/pics/left_01.png"></i> 
+                    <i class="picSildeRight"><img src="/images/pics/right_01.png"></i> 
+                    <div id="cSlideUl">
+                        <ul>
+                            <li><img src="/images/pics/banner_01.jpg"><tt></tt></li>
+                            <li><img src="/images/pics/banner_02.jpg"><tt></tt></li>
+                            <li><img src="/images/pics/banner_03.jpg" /><tt></tt></li>
+                            <li><img src="/images/pics/banner_04.jpg"><tt></tt></li>
+                            <li><img src="/images/pics/banner_01.jpg"><tt></tt></li>
+                            <li><img src="/images/pics/banner_02.jpg"><tt></tt></li>
+                            <li><img src="/images/pics/banner_03.jpg" /><tt></tt></li>
+                            <li><img src="/images/pics/banner_04.jpg"><tt></tt></li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class='nextSet'>
+                    <a href="#">
+                        <img src="/images/pics/banner_04.jpg" alt="">
+                    </a>
+                </div>
+             </div>        
+        </div>
+    </div><!--end滚动看图-->
+</div>
+
+<!--</script>-->
+
+<link rel="stylesheet" type="text/css" href="<%=site.path%>/css/apps/cm_slideShow.css"/>
+
+<style>
+    #cm_slideShow{
+        overflow:hidden;
+        background-color: #fff;
+    }
+    .imgnav .cbtnBox .preSet,
+    .imgnav .cbtnBox .nextSet{
+        width: 110px;
+        height: 110px;
+        float: left;
+        background: url('/images/pics/bn.png') no-repeat;
+    }
+    .imgnav .cbtnBox .preSet a,
+    .imgnav .cbtnBox .nextSet a{
+        display: block;
+        width: 100px;
+        height: 100px;
+        background: red;
+
+    }
+    .imgnav .cbtnBox .preSet a img,
+    .imgnav .cbtnBox .nextSet a img{
+        width: 100%;
+        height: 100%;
+    }
+ 
+
+    .topWrap{
+        margin-top: 40px;
+        padding:0 20px;
+    }
+    .topWrap h1{
+        font-size: 28px;
+        color: #424954;
+        font-weight: 700;
+    }
+    .topWrap .detailsText{
+        margin-top: 20px;
+    }
+    .topWrap .detailsText .span_01{
+        font-size: 14px;
+        color: #ababab;
+
+    }
+    .topWrap .detailsText .span_02 a{
+        font-size: 14px;
+        color: red;
+        margin: 0 600px 0 30px;
+        text-decoration: none;
+
+    }
+    .topWrap .detailsText .span_03{
+        font-size: 12px;
+        color: #666;
+
+    }
+</style>

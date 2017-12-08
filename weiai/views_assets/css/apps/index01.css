@@ -1,0 +1,62 @@
+.img_slide_h{
+    height:390px;
+}
+.img_slide{
+    width:250px;
+    height:350px;
+    margin:20px 30px 20px 20px;
+}
+.toutiao_h{
+    height:350px;
+    margin:20px 0!important;
+}
+.paihang_pr30{
+    padding-right:40px;
+}
+@media (max-width:768px){
+    .img_slide_h{
+        height:370px;
+    }
+    .img_slide{
+        margin:20px auto;
+    }
+    .toutiao_h{
+        height:auto;
+    }
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.cm_bk01{
+    background:#f8effa;
+}
+.cm_cc01{
+    color:#a93ac3;
+}

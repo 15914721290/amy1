@@ -1,0 +1,41 @@
+@charset 'utf-8';
+
+.cm_c1b{background:rgb(230,98,128)!important}
+.cm_c1c{color:rgb(230,98,128)!important}
+.cm_b1c1{border:1px solid rgb(230,98,128) !important}
+.cm_bl1c1{border-left:1px solid rgb(230,98,128) !important}
+.cm_bb1c1{border-bottom:1px solid rgb(230,98,128) !important}
+.cm_bb3c1{border-bottom:3px solid rgb(230,98,128) !important}
+.cm_bb399{border-bottom:3px solid #999 !important}
+.foot-fixed .active {color:rgb(230,98,128);background:#fff;}
+
+.cm_c2b{background:rgb(249,21,75)!important}
+
+.cm_checkbox + label {
+    border: 1px solid rgb(230,98,128)!important;
+    border-radius: 0.5em!important;
+}
+.cm_checkbox:checked + label {
+    color: rgb(230,98,128)!important;
+}
+.cm_checkbox:checked + label:after {
+    color: rgb(230,98,128)!important;
+}
+
+
+.cm_radio + label {
+    border: 1px solid rgb(230,98,128)!important;
+/*    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;*/
+}
+.cm_radio:checked + label {
+    color: rgb(230,98,128)!important;
+}
+.cm_radio:checked + label:after {
+    color: rgb(230,98,128)!important;
+}
+
+
